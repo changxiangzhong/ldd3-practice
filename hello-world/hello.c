@@ -20,7 +20,7 @@ MODULE_PARM_DESC(param2, "This is the 2nd param.");
 
 static int hello_2_init(void)
 {
-    pr_alert("Hello, world!\nparam1 = %d, param2 = %s", param1, param2);
+    pr_alert("Hello, world!\nparam1 = %d, param2 = %s\n", param1, param2);
     return 0;
 }
 
