@@ -37,3 +37,12 @@
 
 # Tags
 tags
+
+# Kernel Module compilation garbage
+*.o.cmd
+*.ko.cmd
+*.mod.o.cmd
+.tmp_versions
+Module.symvers
+*.mod.c
+*modules.order
